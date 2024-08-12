@@ -4,7 +4,7 @@ import { SignUp } from '../screens/SignUp';
 
 
 
-const AppRoutes = () => {
+const AuthRoutes = () => {
     return (
         <Router>
             <Routes>
@@ -15,4 +15,4 @@ const AppRoutes = () => {
     );
 };
 
-export default AppRoutes;
+export default AuthRoutes;

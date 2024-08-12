@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home } from '@renderer/screens/Home';
+import { Home } from '../screens/Home';
 
 
 
 
-const AuthRoutes = () => {
+const AppRoutes = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/home" element={<Home />} />
+                <Route path="/" element={<Home />} />
             </Routes>
         </Router>
     );
 };
 
-export default AuthRoutes;
+export default AppRoutes;
