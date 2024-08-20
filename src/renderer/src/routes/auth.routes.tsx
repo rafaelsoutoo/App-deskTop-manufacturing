@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {  Routes, Route, HashRouter } from 'react-router-dom';
 import { SignIn } from '../screens/SignIn';
 import { SignUp } from '../screens/SignUp';
 
@@ -6,12 +6,12 @@ import { SignUp } from '../screens/SignUp';
 
 const AuthRoutes = () => {
     return (
-        <Router>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<SignIn />} />
                 <Route path="/signup" element={<SignUp />} />
             </Routes>
-        </Router>
+        </HashRouter>
     );
 };
 
