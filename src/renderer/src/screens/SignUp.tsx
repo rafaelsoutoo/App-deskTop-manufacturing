@@ -92,6 +92,7 @@ export function SignUp() {
              mt={2}
              textDecoration="underline"
              color="gray.400"
+             _hover={{color: 'white'}}
             >
               Voltar
             </Text>

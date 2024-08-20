@@ -69,6 +69,7 @@ export function SignIn() {
              mt={2}
              textDecoration="underline"
              color="gray.400"
+             _hover={{color: 'white'}}
             >
               Cadastrar
             </Text>
