@@ -21,9 +21,14 @@
     "build:linux": "electron-vite build && electron-builder --linux"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
     "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/utils": "^3.0.0",
-    "electron-updater": "^6.1.7"
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "electron-updater": "^6.1.7",
+    "framer-motion": "^11.3.28",
+    "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^2.0.0",
@@ -32,18 +37,16 @@
     "@types/node": "^20.14.8",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.20",
     "electron": "^31.0.2",
     "electron-builder": "^24.13.3",
     "electron-vite": "^2.3.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
-    "postcss-loader": "^8.1.1",
     "prettier": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwindcss": "^3.4.9",
     "typescript": "^5.5.2",
     "vite": "^5.3.1"
   }
