@@ -1,10 +1,7 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Home } from '../screens/Home';
 
-
-
-
-const AppRoutes = () => {
+export function AppRoutes () {
     return (
         <HashRouter>
             <Routes>
@@ -13,5 +10,3 @@ const AppRoutes = () => {
         </HashRouter>
     );
 };
-
-export default AppRoutes;

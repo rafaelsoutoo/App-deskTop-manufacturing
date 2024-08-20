@@ -2,9 +2,7 @@ import {  Routes, Route, HashRouter } from 'react-router-dom';
 import { SignIn } from '../screens/SignIn';
 import { SignUp } from '../screens/SignUp';
 
-
-
-const AuthRoutes = () => {
+export function AuthRoutes(){
     return (
         <HashRouter>
             <Routes>
@@ -14,5 +12,3 @@ const AuthRoutes = () => {
         </HashRouter>
     );
 };
-
-export default AuthRoutes;
