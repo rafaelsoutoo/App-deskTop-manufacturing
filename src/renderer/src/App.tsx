@@ -4,7 +4,7 @@ import {AppRoutes} from './routes/app.routes';
 
 
 const App = () => {
-  const isAuthenticated:number = 2;
+  const isAuthenticated:number = 1;
 
   return (
     <ChakraProvider>
