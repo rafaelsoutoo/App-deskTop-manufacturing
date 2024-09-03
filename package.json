@@ -29,6 +29,7 @@
     "@emotion/styled": "^11.13.0",
     "@hookform/resolvers": "^3.9.0",
     "axios": "^1.7.5",
+    "electron-store": "^10.0.0",
     "electron-updater": "^6.1.7",
     "framer-motion": "^11.3.28",
     "react-hook-form": "^7.53.0",
