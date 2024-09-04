@@ -36,7 +36,7 @@ export function SignUp() {
     try {
       setIsLoading(true);
       console.log(name, email, password)
-      await api.post('/user/register', { name, email, password });
+      await api.post('/register', { name, email, password });
 
       toast({
         title: 'Conta criada com sucesso!',
